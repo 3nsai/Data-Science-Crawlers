@@ -1,0 +1,59 @@
+2024-09-24 20:08:41,892 - INFO - ====== WebDriver manager ======
+2024-09-24 20:08:42,051 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:08:42,119 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:08:42,162 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 20:09:14,685 - INFO - ====== WebDriver manager ======
+2024-09-24 20:09:14,845 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:09:14,903 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:09:14,942 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 20:12:40,674 - INFO - ====== WebDriver manager ======
+2024-09-24 20:12:40,825 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:12:40,897 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:12:40,970 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 20:12:43,317 - INFO - Navigating to Lens Protocol login page.
+2024-09-24 20:13:13,378 - ERROR - Error finding the 'Login with Wallet' button: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010075c274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010075475c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000100368260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001003ac50c cxxbridge1$string$len + 368700
+4   chromedriver                        0x00000001003e67d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x00000001003a112c cxxbridge1$string$len + 322652
+6   chromedriver                        0x00000001003a1d7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000100724504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000100728e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000100709618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x000000010072973c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x00000001006fabbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000100745854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x00000001007459ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x00000001007543fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 20:15:51,242 - INFO - Automation completed and browser closed.
+2024-09-24 20:15:54,832 - INFO - ====== WebDriver manager ======
+2024-09-24 20:15:54,990 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:15:55,037 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:15:55,075 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 20:15:57,570 - INFO - Navigating to Lens Protocol login page.
+2024-09-24 20:16:48,899 - INFO - ====== WebDriver manager ======
+2024-09-24 20:16:49,043 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:16:49,130 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:16:49,186 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 20:16:52,171 - INFO - Navigating to Lens Protocol login page.
+2024-09-24 20:17:20,295 - INFO - Automation completed and browser closed.
+2024-09-24 21:24:37,412 - INFO - ====== WebDriver manager ======
+2024-09-24 21:24:37,561 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:24:37,652 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:24:37,688 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 21:24:41,339 - INFO - Navigating to Lens Protocol login page.
+2024-09-24 21:24:56,702 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103899e20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e2d96427d15d73eac7d4321cf369e179
+2024-09-24 21:24:56,703 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103899dc0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e2d96427d15d73eac7d4321cf369e179
+2024-09-24 21:24:56,705 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1038fc1f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e2d96427d15d73eac7d4321cf369e179
+2024-09-24 21:24:56,718 - INFO - Automation completed and browser closed.
+2024-09-24 23:17:24,797 - INFO - ====== WebDriver manager ======
+2024-09-24 23:17:25,355 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:17:25,408 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:17:25,443 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:17:29,465 - INFO - Navigating to Lens Protocol login page.
