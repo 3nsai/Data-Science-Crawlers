@@ -1,0 +1,644 @@
+2024-09-24 20:04:40,240 - INFO - ====== WebDriver manager ======
+2024-09-24 20:04:46,065 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:04:46,173 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:04:46,208 - INFO - There is no [mac64] chromedriver "129.0.6668.70" for browser google-chrome "129.0.6668" in cache
+2024-09-24 20:04:46,214 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:04:46,347 - INFO - WebDriver version 129.0.6668.70 selected
+2024-09-24 20:04:46,349 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/mac-arm64/chromedriver-mac-arm64.zip
+2024-09-24 20:04:46,349 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/mac-arm64/chromedriver-mac-arm64.zip
+2024-09-24 20:04:46,411 - INFO - Driver downloading response is 200
+2024-09-24 20:04:47,869 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 20:04:48,007 - INFO - Driver has been saved in cache [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70]
+2024-09-24 21:37:58,335 - INFO - ====== WebDriver manager ======
+2024-09-24 21:37:58,502 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:37:58,567 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:37:58,607 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 21:38:01,028 - INFO - Navigated to LensPeer home page.
+2024-09-24 21:38:31,474 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001026a8274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x00000001026a075c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x00000001022b4260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001022f850c cxxbridge1$string$len + 368700
+4   chromedriver                        0x00000001023327d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x00000001022ed12c cxxbridge1$string$len + 322652
+6   chromedriver                        0x00000001022edd7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000102670504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000102674e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000102655618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x000000010267573c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000102646bbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000102691854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x00000001026919ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x00000001026a03fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 21:39:26,178 - INFO - Automation completed and browser closed.
+2024-09-24 21:42:32,325 - INFO - ====== WebDriver manager ======
+2024-09-24 21:42:32,504 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:42:32,565 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:42:32,600 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 21:42:36,098 - INFO - Navigated to LensPeer home page.
+2024-09-24 21:42:56,225 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104a98274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x0000000104a9075c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x00000001046a4260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001046e850c cxxbridge1$string$len + 368700
+4   chromedriver                        0x00000001047227d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x00000001046dd12c cxxbridge1$string$len + 322652
+6   chromedriver                        0x00000001046ddd7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000104a60504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000104a64e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000104a45618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x0000000104a6573c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000104a36bbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000104a81854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x0000000104a819ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x0000000104a903fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 21:43:49,412 - INFO - Automation completed and browser closed.
+2024-09-24 21:50:21,103 - INFO - ====== WebDriver manager ======
+2024-09-24 21:50:21,285 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:50:21,334 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:50:21,372 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 21:50:24,617 - INFO - Navigated to LensPeer home page.
+2024-09-24 21:50:26,077 - INFO - Clicked the Sign In button.
+2024-09-24 21:50:26,704 - INFO - Clicked the Connect Wallet button.
+2024-09-24 21:50:56,945 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050b0274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x00000001050a875c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000104cbc260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x0000000104d0050c cxxbridge1$string$len + 368700
+4   chromedriver                        0x0000000104d3a7d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x0000000104cf512c cxxbridge1$string$len + 322652
+6   chromedriver                        0x0000000104cf5d7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000105078504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x000000010507ce6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x000000010505d618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x000000010507d73c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x000000010504ebbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000105099854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x00000001050999ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x00000001050a83fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 21:51:41,857 - INFO - ====== WebDriver manager ======
+2024-09-24 21:51:42,564 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:51:42,618 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:51:42,653 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 21:51:44,896 - INFO - Navigated to LensPeer home page.
+2024-09-24 21:51:46,269 - INFO - Clicked the Sign In button.
+2024-09-24 21:51:46,421 - INFO - Clicked the Connect Wallet button.
+2024-09-24 21:52:04,101 - INFO - Automation completed and browser closed.
+2024-09-24 21:57:06,951 - INFO - ====== WebDriver manager ======
+2024-09-24 21:57:07,109 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:57:07,169 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:57:07,207 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 21:57:09,896 - INFO - Navigated to LensPeer home page.
+2024-09-24 21:57:10,702 - INFO - Clicked the Sign In button.
+2024-09-24 21:57:11,329 - INFO - Clicked the Connect Wallet button.
+2024-09-24 21:57:41,685 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001024a4274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010249c75c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x00000001020b0260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001020f450c cxxbridge1$string$len + 368700
+4   chromedriver                        0x000000010212e7d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x00000001020e912c cxxbridge1$string$len + 322652
+6   chromedriver                        0x00000001020e9d7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x000000010246c504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000102470e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000102451618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x000000010247173c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000102442bbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x000000010248d854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x000000010248d9ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x000000010249c3fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 21:57:52,780 - INFO - ====== WebDriver manager ======
+2024-09-24 21:57:52,977 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:57:53,038 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 21:57:53,073 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 21:57:55,761 - INFO - Navigated to LensPeer home page.
+2024-09-24 21:57:56,423 - INFO - Clicked the Sign In button.
+2024-09-24 21:57:57,025 - INFO - Clicked the Connect Wallet button.
+2024-09-24 21:58:27,098 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d30274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x0000000100d2875c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x000000010093c260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x000000010098050c cxxbridge1$string$len + 368700
+4   chromedriver                        0x00000001009ba7d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x000000010097512c cxxbridge1$string$len + 322652
+6   chromedriver                        0x0000000100975d7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000100cf8504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000100cfce6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000100cdd618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x0000000100cfd73c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000100ccebbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000100d19854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x0000000100d199ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x0000000100d283fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 22:02:25,915 - INFO - ====== WebDriver manager ======
+2024-09-24 22:02:26,061 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:02:26,120 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:02:26,158 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:02:29,812 - INFO - Navigated to LensPeer home page.
+2024-09-24 22:02:30,828 - INFO - Clicked the Sign In button.
+2024-09-24 22:02:31,314 - INFO - Clicked the Connect Wallet button.
+2024-09-24 22:03:01,384 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104a98274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x0000000104a9075c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x00000001046a4260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001046e850c cxxbridge1$string$len + 368700
+4   chromedriver                        0x00000001047227d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x00000001046dd12c cxxbridge1$string$len + 322652
+6   chromedriver                        0x00000001046ddd7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000104a60504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000104a64e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000104a45618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x0000000104a6573c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000104a36bbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000104a81854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x0000000104a819ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x0000000104a903fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 22:03:11,828 - INFO - Automation completed and browser closed.
+2024-09-24 22:06:23,305 - INFO - ====== WebDriver manager ======
+2024-09-24 22:06:23,478 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:06:23,575 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:06:23,609 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:06:26,380 - INFO - Navigated to LensPeer home page.
+2024-09-24 22:06:28,956 - INFO - Clicked the Sign In button.
+2024-09-24 22:06:29,613 - INFO - Clicked the Connect Wallet button.
+2024-09-24 22:07:00,026 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104778274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010477075c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000104384260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001043c850c cxxbridge1$string$len + 368700
+4   chromedriver                        0x00000001044027d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x00000001043bd12c cxxbridge1$string$len + 322652
+6   chromedriver                        0x00000001043bdd7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000104740504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000104744e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000104725618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x000000010474573c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000104716bbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000104761854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x00000001047619ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x00000001047703fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 22:18:51,988 - INFO - ====== WebDriver manager ======
+2024-09-24 22:18:58,197 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:18:58,279 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:18:58,315 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:19:00,519 - INFO - Navigated to LensPeer home page.
+2024-09-24 22:19:02,250 - INFO - Clicked the Sign In button.
+2024-09-24 22:19:02,851 - INFO - Clicked the Connect Wallet button.
+2024-09-24 22:46:09,316 - INFO - ====== WebDriver manager ======
+2024-09-24 22:46:09,508 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:46:09,598 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:46:09,637 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:46:22,372 - ERROR - User is not logged in. Please log in to LensPeer.
+2024-09-24 22:46:22,373 - ERROR - You are not logged in. Exiting automation.
+2024-09-24 22:46:30,845 - INFO - Automation completed and browser closed.
+2024-09-24 22:48:49,768 - INFO - ====== WebDriver manager ======
+2024-09-24 22:48:49,963 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:48:50,074 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:48:50,107 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:49:02,763 - ERROR - User is not logged in.
+2024-09-24 22:49:02,766 - ERROR - User is not logged in. Please log in manually.
+2024-09-24 22:49:03,024 - INFO - Navigated to the 'Who to Follow' page.
+2024-09-24 22:49:12,791 - ERROR - Error while sending message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+0   chromedriver                        0x0000000104e58274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x0000000104e5075c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000104a64260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x0000000104a3f728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x0000000104acee8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x0000000104ae2218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x0000000104a9d12c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000104a9dd7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x0000000104e20504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x0000000104e24e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x0000000104e05618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x0000000104e2573c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x0000000104df6bbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x0000000104e41854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x0000000104e419ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x0000000104e503fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 22:49:51,841 - INFO - ====== WebDriver manager ======
+2024-09-24 22:49:52,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:49:52,111 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:49:52,147 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:50:04,702 - ERROR - User is not logged in.
+2024-09-24 22:50:04,703 - ERROR - User is not logged in. Please log in manually.
+2024-09-24 22:50:04,981 - INFO - Navigated to the 'Who to Follow' page.
+2024-09-24 22:50:35,023 - ERROR - Error while sending message: Message: 
+
+2024-09-24 22:53:57,217 - INFO - ====== WebDriver manager ======
+2024-09-24 22:53:57,385 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:53:57,456 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:53:57,499 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:54:10,344 - ERROR - User is not logged in. Please log in to LensPeer.
+2024-09-24 22:54:10,345 - ERROR - You are not logged in. Exiting automation.
+2024-09-24 22:54:44,625 - INFO - ====== WebDriver manager ======
+2024-09-24 22:54:44,811 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:54:44,881 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 22:54:44,918 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 22:54:47,541 - INFO - Navigated to LensPeer home page.
+2024-09-24 22:54:48,834 - INFO - Clicked the Sign In button.
+2024-09-24 22:54:49,407 - INFO - Clicked the Connect Wallet button.
+2024-09-24 22:55:12,360 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102075b80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/35d2719635640a9ba9b1f4308e8cb439
+2024-09-24 22:55:12,362 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102075700>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/35d2719635640a9ba9b1f4308e8cb439
+2024-09-24 22:55:12,362 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102075fa0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/35d2719635640a9ba9b1f4308e8cb439
+2024-09-24 22:55:12,370 - INFO - Automation completed and browser closed.
+2024-09-24 23:12:29,009 - INFO - ====== WebDriver manager ======
+2024-09-24 23:12:29,213 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:12:29,263 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:12:29,296 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:12:32,221 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:12:50,239 - ERROR - Error during login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+0   chromedriver                        0x0000000105074274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010506c75c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000104c80260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x0000000104c5b728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x0000000104ceae8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x0000000104cfe218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x0000000104cb912c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000104cb9d7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x000000010503c504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x0000000105040e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x0000000105021618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x000000010504173c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x0000000105012bbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x000000010505d854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x000000010505d9ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x000000010506c3fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:13:18,682 - INFO - ====== WebDriver manager ======
+2024-09-24 23:13:18,815 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:13:18,880 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:13:18,917 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:13:21,380 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:13:41,757 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104b80274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x0000000104b7875c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x000000010478c260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001047d050c cxxbridge1$string$len + 368700
+4   chromedriver                        0x000000010480a7d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x00000001047c512c cxxbridge1$string$len + 322652
+6   chromedriver                        0x00000001047c5d7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000104b48504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000104b4ce6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000104b2d618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x0000000104b4d73c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000104b1ebbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000104b69854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x0000000104b699ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x0000000104b783fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:25:38,511 - INFO - ====== WebDriver manager ======
+2024-09-24 23:25:38,673 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:25:38,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:25:38,768 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:25:41,731 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:26:02,081 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101194274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010118c75c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000100da0260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x0000000100de450c cxxbridge1$string$len + 368700
+4   chromedriver                        0x0000000100e1e7d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x0000000100dd912c cxxbridge1$string$len + 322652
+6   chromedriver                        0x0000000100dd9d7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x000000010115c504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000101160e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x0000000101141618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x000000010116173c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x0000000101132bbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x000000010117d854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x000000010117d9ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x000000010118c3fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:26:53,852 - INFO - ====== WebDriver manager ======
+2024-09-24 23:26:54,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:26:54,055 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:26:54,149 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:26:56,468 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:26:57,131 - INFO - Clicked the Sign In button.
+2024-09-24 23:26:57,303 - INFO - Clicked the Connect Wallet button.
+2024-09-24 23:28:58,442 - INFO - ====== WebDriver manager ======
+2024-09-24 23:28:58,606 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:28:58,653 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:28:58,700 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:29:01,431 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:29:12,739 - ERROR - Error during login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+0   chromedriver                        0x0000000102afc274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x0000000102af475c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000102708260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001026e3728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x0000000102772e8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x0000000102786218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x000000010274112c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000102741d7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x0000000102ac4504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x0000000102ac8e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x0000000102aa9618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x0000000102ac973c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x0000000102a9abbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x0000000102ae5854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x0000000102ae59ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x0000000102af43fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:35:59,442 - INFO - ====== WebDriver manager ======
+2024-09-24 23:35:59,597 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:35:59,650 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:35:59,686 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:36:02,157 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:36:12,825 - ERROR - Error during login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+0   chromedriver                        0x0000000102f78274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x0000000102f7075c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000102b84260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x0000000102b5f728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x0000000102beee8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x0000000102c02218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x0000000102bbd12c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000102bbdd7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x0000000102f40504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x0000000102f44e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x0000000102f25618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x0000000102f4573c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x0000000102f16bbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x0000000102f61854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x0000000102f619ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x0000000102f703fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:36:38,766 - INFO - ====== WebDriver manager ======
+2024-09-24 23:36:39,222 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:36:39,268 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:36:39,311 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:36:41,195 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:37:11,419 - ERROR - Error during login: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010084c274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010084475c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000100458260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x000000010049c50c cxxbridge1$string$len + 368700
+4   chromedriver                        0x00000001004d67d0 cxxbridge1$string$len + 606976
+5   chromedriver                        0x000000010049112c cxxbridge1$string$len + 322652
+6   chromedriver                        0x0000000100491d7c cxxbridge1$string$len + 325804
+7   chromedriver                        0x0000000100814504 cxxbridge1$str$ptr + 1678560
+8   chromedriver                        0x0000000100818e6c cxxbridge1$str$ptr + 1697352
+9   chromedriver                        0x00000001007f9618 cxxbridge1$str$ptr + 1568244
+10  chromedriver                        0x000000010081973c cxxbridge1$str$ptr + 1699608
+11  chromedriver                        0x00000001007eabbc cxxbridge1$str$ptr + 1508248
+12  chromedriver                        0x0000000100835854 cxxbridge1$str$ptr + 1814576
+13  chromedriver                        0x00000001008359ac cxxbridge1$str$ptr + 1814920
+14  chromedriver                        0x00000001008443fc cxxbridge1$str$ptr + 1874904
+15  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:37:43,430 - INFO - ====== WebDriver manager ======
+2024-09-24 23:37:43,560 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:37:43,611 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:37:43,649 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:37:45,824 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:37:47,227 - INFO - Clicked the Sign In button.
+2024-09-24 23:37:47,809 - INFO - Clicked the Connect Wallet button.
+2024-09-24 23:45:39,251 - INFO - ====== WebDriver manager ======
+2024-09-24 23:45:39,540 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:45:39,586 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:45:39,618 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:45:42,654 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:45:52,267 - ERROR - Error during login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+0   chromedriver                        0x0000000100534274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010052c75c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000100140260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x000000010011b728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x00000001001aae8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x00000001001be218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x000000010017912c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000100179d7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x00000001004fc504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x0000000100500e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x00000001004e1618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x000000010050173c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x00000001004d2bbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x000000010051d854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x000000010051d9ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x000000010052c3fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:47:13,433 - INFO - ====== WebDriver manager ======
+2024-09-24 23:47:13,543 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:47:13,596 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:47:13,631 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:47:15,876 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:52:13,877 - INFO - ====== WebDriver manager ======
+2024-09-24 23:52:14,020 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:52:14,068 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-24 23:52:14,105 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-24 23:52:16,876 - INFO - Navigated to LensPeer home page.
+2024-09-24 23:52:19,254 - INFO - Clicked the Sign In button.
+2024-09-24 23:52:19,425 - INFO - Clicked the Connect Wallet button.
+2024-09-24 23:52:39,554 - ERROR - Error during login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+0   chromedriver                        0x0000000102708274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010270075c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000102314260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001022ef728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x000000010237ee8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x0000000102392218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x000000010234d12c cxxbridge1$string$len + 322652
+7   chromedriver                        0x000000010234dd7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x00000001026d0504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x00000001026d4e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x00000001026b5618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x00000001026d573c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x00000001026a6bbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x00000001026f1854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x00000001026f19ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x00000001027003fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-24 23:52:47,705 - INFO - Automation completed and browser closed.
+2024-09-25 00:04:34,716 - INFO - ====== WebDriver manager ======
+2024-09-25 00:04:35,514 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 00:04:35,619 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 00:04:35,668 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 00:04:35,761 - INFO - WebDriver version 129.0.6668.70 selected
+2024-09-25 00:04:35,763 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/mac-arm64/chromedriver-mac-arm64.zip
+2024-09-25 00:04:35,763 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/mac-arm64/chromedriver-mac-arm64.zip
+2024-09-25 00:04:35,818 - INFO - Driver downloading response is 200
+2024-09-25 00:04:36,408 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 00:04:36,515 - INFO - Driver has been saved in cache [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70]
+2024-09-25 00:04:39,376 - WARNING - No model found for failure prediction.
+2024-09-25 00:04:39,782 - INFO - Navigated to LensPeer home page.
+2024-09-25 00:04:41,019 - INFO - Clicked the Sign In button.
+2024-09-25 00:04:41,603 - INFO - Clicked the Connect Wallet button.
+2024-09-25 00:04:53,107 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1737288b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4d870c910ee107099cf605d5f2942d9f
+2024-09-25 00:04:53,108 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x17373b2b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4d870c910ee107099cf605d5f2942d9f
+2024-09-25 00:04:53,108 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x17373b790>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4d870c910ee107099cf605d5f2942d9f
+2024-09-25 00:04:53,116 - INFO - Automation completed and browser closed.
+2024-09-25 15:48:44,726 - INFO - ====== WebDriver manager ======
+2024-09-25 15:48:53,539 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 15:48:53,962 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 15:48:54,001 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-25 15:48:57,549 - WARNING - No model found for failure prediction.
+2024-09-25 15:48:57,819 - INFO - Navigated to LensPeer home page.
+2024-09-25 15:49:03,175 - INFO - ====== WebDriver manager ======
+2024-09-25 15:49:03,345 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 15:49:03,393 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 15:49:03,426 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-25 15:49:05,372 - WARNING - No model found for failure prediction.
+2024-09-25 15:49:06,528 - INFO - Navigated to LensPeer home page.
+2024-09-25 15:49:06,720 - INFO - Clicked the Sign In button.
+2024-09-25 15:49:07,387 - INFO - Clicked the Connect Wallet button.
+2024-09-25 15:49:16,124 - ERROR - Error during login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.70)
+Stacktrace:
+0   chromedriver                        0x00000001048bc274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x00000001048b475c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x00000001044c8260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x00000001044a3728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x0000000104532e8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x0000000104546218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x000000010450112c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000104501d7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x0000000104884504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x0000000104888e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x0000000104869618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x000000010488973c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x000000010485abbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x00000001048a5854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x00000001048a59ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x00000001048b43fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-25 15:49:16,131 - INFO - Logged result for login_lenspeer: Failure
+2024-09-25 16:02:10,735 - INFO - ====== WebDriver manager ======
+2024-09-25 16:02:10,902 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 16:02:10,953 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 16:02:10,996 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-25 16:02:12,970 - ERROR - Error loading session cookies: [Errno 2] No such file or directory: 'session_cookies.json'
+2024-09-25 16:03:04,006 - INFO - Automation completed and browser closed.
+2024-09-25 17:06:14,078 - INFO - ====== WebDriver manager ======
+2024-09-25 17:06:20,312 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 17:06:20,413 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-25 17:06:20,449 - INFO - Driver [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70/chromedriver-mac-arm64/chromedriver] found in cache
+2024-09-25 17:06:23,379 - ERROR - Error loading cookies: [Errno 2] No such file or directory: 'session_cookies.json'
+2024-09-25 17:06:33,487 - ERROR - User is not logged in.
+2024-09-25 17:06:33,488 - ERROR - User is not logged in. Please log in manually.
+2024-09-25 17:06:33,966 - INFO - Navigated to the 'Who to Follow' page.
+2024-09-25 17:06:37,758 - ERROR - Error while sending message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.70)
+Stacktrace:
+0   chromedriver                        0x000000010071c274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x000000010071475c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000100328260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x0000000100303728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x0000000100392e8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x00000001003a6218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x000000010036112c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000100361d7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x00000001006e4504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x00000001006e8e6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x00000001006c9618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x00000001006e973c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x00000001006babbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x0000000100705854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x00000001007059ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x00000001007143fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
+2024-09-26 12:46:21,183 - INFO - ====== WebDriver manager ======
+2024-09-26 12:46:21,432 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-26 12:46:21,611 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-26 12:46:21,675 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-26 12:46:21,833 - INFO - WebDriver version 129.0.6668.70 selected
+2024-09-26 12:46:21,840 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/mac-arm64/chromedriver-mac-arm64.zip
+2024-09-26 12:46:21,841 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/129.0.6668.70/mac-arm64/chromedriver-mac-arm64.zip
+2024-09-26 12:46:22,134 - INFO - Driver downloading response is 200
+2024-09-26 12:46:23,427 - INFO - Get LATEST chromedriver version for google-chrome
+2024-09-26 12:46:23,533 - INFO - Driver has been saved in cache [/Users/maharshi12/.wdm/drivers/chromedriver/mac64/129.0.6668.70]
+2024-09-26 12:46:25,986 - ERROR - Error loading cookies: [Errno 2] No such file or directory: 'session_cookies.json'
+2024-09-26 12:46:36,013 - ERROR - User is not logged in.
+2024-09-26 12:46:36,025 - ERROR - User is not logged in. Please log in manually.
+2024-09-26 12:46:36,916 - INFO - Navigated to the 'Who to Follow' page.
+2024-09-26 12:46:38,560 - ERROR - Error while sending message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.70)
+Stacktrace:
+0   chromedriver                        0x00000001033e0274 cxxbridge1$str$ptr + 1907280
+1   chromedriver                        0x00000001033d875c cxxbridge1$str$ptr + 1875768
+2   chromedriver                        0x0000000102fec260 cxxbridge1$string$len + 89488
+3   chromedriver                        0x0000000102fc7728 core::str::slice_error_fail::hbaf5d05fe3921cd2 + 3776
+4   chromedriver                        0x0000000103056e8c cxxbridge1$string$len + 526780
+5   chromedriver                        0x000000010306a218 cxxbridge1$string$len + 605512
+6   chromedriver                        0x000000010302512c cxxbridge1$string$len + 322652
+7   chromedriver                        0x0000000103025d7c cxxbridge1$string$len + 325804
+8   chromedriver                        0x00000001033a8504 cxxbridge1$str$ptr + 1678560
+9   chromedriver                        0x00000001033ace6c cxxbridge1$str$ptr + 1697352
+10  chromedriver                        0x000000010338d618 cxxbridge1$str$ptr + 1568244
+11  chromedriver                        0x00000001033ad73c cxxbridge1$str$ptr + 1699608
+12  chromedriver                        0x000000010337ebbc cxxbridge1$str$ptr + 1508248
+13  chromedriver                        0x00000001033c9854 cxxbridge1$str$ptr + 1814576
+14  chromedriver                        0x00000001033c99ac cxxbridge1$str$ptr + 1814920
+15  chromedriver                        0x00000001033d83fc cxxbridge1$str$ptr + 1874904
+16  libsystem_pthread.dylib             0x0000000185ec6034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000185ec0e3c thread_start + 8
+
