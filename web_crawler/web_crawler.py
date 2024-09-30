@@ -5,6 +5,7 @@ import re
 import csv
 from bs4 import BeautifulSoup
 
+
 #======================================================================================
 url = "https://api.d3.app/graphql"
 # List your query here
