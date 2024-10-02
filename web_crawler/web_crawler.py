@@ -9,8 +9,10 @@ from bs4 import BeautifulSoup
 url = "https://api.d3.app/graphql"
 headers = {}
 # List your query here
+#tld, sld, registrant, ownerName, fixedPrice, minimumPrice, Chain-id,addressType : "EVM", blockExplorerUrl : "https://scan.coredao.org"
+blockExplorerUrl : "https://scan.coredao.org"
 query_string_MPF = "query MarketplaceFeed($page: Int, $size: Int, $tld: String, $previousDays: Int, $type: MarketplaceFeedRecordType) {\n  marketplaceFeed(\n    page: $page\n    size: $size\n    tld: $tld\n    previousDays: $previousDays\n    type: $type\n  ) {\n    items {\n      sld\n      tld\n      type\n      price\n      currency {\n        symbol\n        decimals\n        icon\n      }\n      buyerName\n      sellerName\n      updatedAt\n    }\n    totalCount\n    pageSize\n    currentPage\n    totalPages\n    hasPreviousPage\n    hasNextPage\n    brandingInfo {\n      name\n      styling {\n        fontColor\n        primaryColor\n        squareLogo {\n          url\n        }\n        logo {\n          url\n        }\n        secondaryColor\n      }\n      tld\n    }\n  }\n}"
-query_string_SRL = "query SearchRecentListings($page: Int, $size: Int, $tlds: [String!], $minPrice: Float, $maxPrice: Float, $minChars: Int, $maxChars: Int, $premiumNames: Boolean, $sortByDate: SortOrder, $sortByPrice: SortOrder) {\n  searchRecentListings(\n    page: $page\n    size: $size\n    tlds: $tlds\n    minPrice: $minPrice\n    maxPrice: $maxPrice\n    minChars: $minChars\n    maxChars: $maxChars\n    premiumNames: $premiumNames\n    sortByDate: $sortByDate\n    sortByPrice: $sortByPrice\n  ) {\n    items {\n      sld\n      tld\n      registrant {\n        id\n        name\n      }\n     ownerName\n      chain {\n      blockExplorerUrl\n        name\n        networkId\n  \n      }\n    \n    }\n    }\n \n}"
+query_string_SRL = "query SearchRecentListings($page: Int, $size: Int, $tlds: [String!], $minPrice: Float, $maxPrice: Float, $minChars: Int, $maxChars: Int, $premiumNames: Boolean, $sortByDate: SortOrder, $sortByPrice: SortOrder) {\n  searchRecentListings(\n    page: $page\n    size: $size\n    tlds: $tlds\n    minPrice: $minPrice\n    maxPrice: $maxPrice\n    minChars: $minChars\n    maxChars: $maxChars\n    premiumNames: $premiumNames\n    sortByDate: $sortByDate\n    sortByPrice: $sortByPrice\n  ) {\n    items {\n      sld\n      tld\n      registrant {\n        id\n        name\n      }\n       ownerName\n      listing {\n        fixedPrice\n        minimumOfferPrice\n   }\n      chain {\n        id\n        addressType\n        blockExplorerUrl\n     }\n      pricing {\n         secondaryPricingInfo {\n          price\n          usdPrice\n          minOfferPrice\n          usdMinOfferPrice\n  }\n      }\n    }\n   }\n}"
 
 # Sent request
 response = requests.post(url, json={'query': query_string_MPF})
@@ -63,17 +65,9 @@ variables = {
 response = requests.post(url, json={'query': query_string_SRL, 'variables': variables})
 print(response.status_code)
 
-# if response.status_code == 200:
-#     try:
-#         response_data = response.json()
-#         print(response_data)
-#     except json.JSONDecodeError:
-#         print("Failed to decode JSON from response")
-# else:
-#     print(f"HTTP Request Failed: Status Code {response.status_code}")
-#     print("Response content:", response.text)
-# response_data = response.json()
 response_data = response.json()
+# print(response_data)
+
 try:
     # Load data
     items = response_data.get('data', {}).get('searchRecentListings', {}).get('items', [])
@@ -86,16 +80,18 @@ try:
         sld = item.get('sld')
         tld = item.get('tld')
         registrant = item.get('registrant')
-        saleType = item.get('saleType')
-        # owner = item.get('ownerName')
+        owner = item.get('ownerName')
+        listing = item.get('listing')
+        chain = item.get('chain')
         
         # Add item to list
         extracted_data.append({
             'sld': sld,
             'tld': tld,
             'registrant': registrant,
-            'saleType': saleType,
-            # 'owner': ownerName
+            'owner': owner,
+            'listing': listing,
+            'chain': chain
         })
 
     # Print extracted data
